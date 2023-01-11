@@ -19,6 +19,7 @@
                         <li><a href="#education" class="header__list-link">Education</a></li>
                         <li><a href="#expertise" class="header__list-link">Expertise</a></li>
                         <li><a href="#personal-project" class="header__list-link">Personal Project</a></li>
+                        <li><a href="#slider" class="header__list-link">Gallery</a></li>
                         <li><a href="#language" class="header__list-link header__list-link--final">Language</a></li>
                     </ul>
                 </nav>
@@ -29,14 +30,14 @@
     <main class="main">
         <section id="about" class="about">
             <div class="about__container wrapper">
-                <div class="about__logo">
+                <div class="about__logo flex-column__container">
                     <img src="./img/me.jpg" class="about__photo" alt="me">
                 </div>
 
-                <div class="about__information">
+                <div class="about__information flex-column__container">
                     <h1 class="section__title about__title">About me</h1>
 
-                    <div class="about__body">
+                    <div class="about__body flex-column__container">
                         <p class="about__name">Artyom Lyovkin (24 y.o.)</p>
                         <p class="about__position">Junior Front-End developer</p>
                         <p class="about__info">Junior developer looking for a job as a Junior Front-End Developer. I'm skilled
@@ -49,7 +50,7 @@
         </section>
 
         <section id="contact" class="contact">
-            <div class="contact__container wrapper">
+            <div class="contact__container flex-column__container wrapper">
                 <h1 class="section__title contact__title">Contact</h1>
 
                 <div class="section__info contact__info">
@@ -67,7 +68,7 @@
         </section>
 
         <section id="experience" class="experience">
-            <div class="experience__container wrapper">
+            <div class="experience__container flex-column__container wrapper">
                 <h1 class="section__title experience__title">Experience</h1>
                 
                 <div class="section__info experience__info">
@@ -86,7 +87,7 @@
         </section>
 
         <section id="education" class="education">
-            <div class="education__container wrapper">
+            <div class="education__container flex-column__container wrapper">
                 <h1 class="section__title education__title">Education</h1>
 
                 <div class="education__info">
@@ -103,27 +104,32 @@
         </section>
 
         <section id="expertise" class="expertise">
-            <div class="expertise__container wrapper">
+            <div class="expertise__container flex-column__container wrapper">
                 <h1 class="section__title expertise__title">Expertise</h1>
 
                 <div class=" section__info expertise__info">
                     <div class="expertise__base">
-                        <p class="expertise__item">HTML, CSS(SCSS)</p>
-                        <p class="expertise__item">JavaScript, TypeScript</p>
+                        <ul>
+                            <li class="expertise__item">HTML</li>
+                            <li class="expertise__item">CSS(SCSS)</li>
+                            <li class="expertise__item">JavaScript</li>
+                            <li class="expertise__item">TypeScript</li>
+                        </ul>
                     </div>
 
                     <div class="expertise__library">
-                        <p class="expertise__item">React</p>
-                        <p class="expertise__item">Redux (redux-persist, redux-thunk)</p>
+                        <ul>
+                            <li class="expertise__item">React</li>
+                            <li class="expertise__item">Redux (redux-persist, redux-thunk)</li>
+                            <li class="expertise__item">Git</li>
+                        </ul>
                     </div>
-            
-                    <p class="expertise__item">Git</p>
                 </div>
             </div>
         </section>
 
-        <section id="perosnal-project" class="personal-project">
-            <div class="personal-project__container wrapper">
+        <section id="personal-project" class="personal-project">
+            <div class="personal-project__container flex-column__container wrapper">
                 <h1 class="section__title personal-project__title">Personal Project</h1>
 
                 <div class="personal-project__projects">
@@ -173,8 +179,78 @@
             </div>
         </section>
 
+        <section id='slider' class="slider">
+            <div class="slider__container flex-column__container wrapper">
+                <h1 class="section__title slider__title">Gallery</h1>
+
+                <div class="gallery">
+                    <ul class="gallery__list">
+                        <li id="slide-one" class="gallery__item">
+                            <img src="./img/meme/meme1.jpg" class="gallery__image" alt="meme1">
+                        </li>
+                        <li id="slide-two" class="gallery__item">
+                            <img src="./img/meme/meme2.jpg" class="gallery__image" alt="meme">
+                        </li>
+                        <li id="slide-three" class="gallery__item">
+                            <img src="./img/meme/meme3.jpg" class="gallery__image" alt="meme">
+                        </li>
+                        <li id="slide-four" class="gallery__item">
+                            <img src="./img/meme/meme4.jpg" class="gallery__image" alt="meme">
+                        </li>
+                        <li id="slide-five" class="gallery__item">
+                            <img src="./img/meme/meme5.jpg" class="gallery__image" alt="meme">
+                        </li>
+                        <li id="slide-six" class="gallery__item">
+                            <img src="./img/meme/meme6.jpg" class="gallery__image" alt="meme">
+                        </li>
+                        <li id="slide-seven" class="gallery__item">
+                            <img src="./img/meme/meme7.jpg" class="gallery__image" alt="meme7">
+                        </li>
+                    </ul>
+
+                    <ul class="thumbnails">
+                        <li class="thumbnails__item">
+                            <a href="#slide-one" class="thumbnails__link">
+                                <img src="./img/meme/meme1.jpg" class="thumbnails__image" alt="meme">
+                            </a>
+                        </li>
+                        <li class="thumbnails__item">
+                            <a href="#slide-two" class="thumbnails__link">
+                                <img src="./img/meme/meme2.jpg" class="thumbnails__image" alt="meme">
+                            </a>
+                        </li>
+                        <li class="thumbnails__item">
+                            <a href="#slide-three" class="thumbnails__link">
+                                <img src="./img/meme/meme3.jpg" class="thumbnails__image" alt="meme">
+                            </a>
+                        </li>
+                        <li class="thumbnails__item">
+                            <a href="#slide-four" class="thumbnails__link">
+                                <img src="./img/meme/meme4.jpg" class="thumbnails__image" alt="meme">
+                            </a>
+                        </li>
+                        <li class="thumbnails__item">
+                            <a href="#slide-five" class="thumbnails__link">
+                                <img src="./img/meme/meme5.jpg" class="thumbnails__image" alt="meme">
+                            </a>
+                        </li>
+                        <li class="thumbnails__item">
+                            <a href="#slide-six" class="thumbnails__link">
+                                <img src="./img/meme/meme6.jpg" class="thumbnails__image" alt="meme">
+                            </a>
+                        </li>
+                        <li class="thumbnails__item">
+                            <a href="#slide-seven" class="thumbnails__link">
+                                <img src="./img/meme/meme7.jpg" class="thumbnails__image" alt="meme">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
         <section id="language" class="language">
-            <div class="language__container wrapper">
+            <div class="language__container flex-column__container wrapper">
                 <h1 class="section__title language__title">Language</h1>
 
                 <div class="section__info language__info">
@@ -200,6 +276,7 @@
                     <div class="footer__column footer__column--right">
                         <li><a href="#expertise" class="header__list-link footer__list-link">Expertise</a></li>
                         <li><a href="#personal-project" class="header__list-link footer__list-link">Personal Project</a></li>
+                        <li><a href="#slider" class="header__list-link footer__list-link">Gallery</a></li>
                         <li><a href="#language" class="header__list-link header__list-link--final footer__list-link footer__list-link--final">Language</a></li>
                     </div>
         
