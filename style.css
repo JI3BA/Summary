@@ -476,5 +476,22 @@ html{
     transition: fill 0.5s;
 }
 
+@media screen and (max-width: 1500px) {
+    .wrapper{
+        max-width: 1240px;
+    }
+}
+
+@media screen and (max-width: 1370px) {
+    .wrapper{
+        max-width: 1100px;
+    }
+
+    .about__info{
+        max-width: 500px;
+        width: 100%;
+    }
+}
+
 
 
