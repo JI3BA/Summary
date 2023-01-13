@@ -18,6 +18,21 @@
     padding-left: 20px;
 }
 
+.expertise__link{
+    color: #000000;
+    outline: none;
+    text-decoration: none;
+    transition-duration: 0.5s;
+}
+
+.expertise__link:hover{
+    color: var(--purple-color, #5e00aa);
+}
+
+.expertise__link:active{
+    color: #2800db;
+}
+
 .expertise__item{
     padding-bottom: 10px;
 }

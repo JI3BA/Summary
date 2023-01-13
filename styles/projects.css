@@ -36,6 +36,15 @@
     outline: none;
     text-decoration: none;
     color: #000000;
+    transition-duration: 0.5s;
+}
+
+.project__link:hover{
+    color: var(--purple-color, #5e00aa);
+}
+
+.project__link:active{
+    color: #2800db;
 }
 
 .project__image{

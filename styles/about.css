@@ -27,6 +27,7 @@
     font-size: 46px;
     line-height: 26px;
     letter-spacing: 2px;
+    color: var(--purple-color, #5e00aa);
 }
 
 .about__title{
