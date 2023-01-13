@@ -1,0 +1,57 @@
+.personal-project{
+    padding: 20px;
+}
+
+.project__name{
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 26px;
+    letter-spacing: 1px;
+    padding: 15px 0;
+}
+
+.project__list{
+    display: flex;
+    justify-content: space-between;
+}
+
+.project__list > ul{
+    padding-left: 20px;
+}
+
+.project__info{
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 22px;
+    letter-spacing: 1px;
+    padding-bottom: 15px;
+}
+
+.project__stack{
+    font-weight: 600;
+}
+
+.project__link{
+    font-weight: 500;
+    outline: none;
+    text-decoration: none;
+    color: #000000;
+}
+
+.project__image{
+    max-width: 700px;
+    object-fit: cover;
+}
+
+.project__features{
+    padding-left: 20px;
+}
+
+.features__item{
+    padding-bottom: 0;
+}
+
+.weather__image{
+    box-shadow: 0 0 2px 2px var(--light-gray-color, #8a8a8a);
+    object-fit: cover;
+}

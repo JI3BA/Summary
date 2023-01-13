@@ -1,0 +1,28 @@
+.experience{
+    padding: 20px;
+}
+
+.experience__info{
+    padding: 30px 0;
+}
+
+.experience__years{
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 26px;
+    letter-spacing: 2px;
+}
+
+.experience__education{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 26px;
+    letter-spacing: 2px;
+}
+
+.experience__body{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: 2px;
+}

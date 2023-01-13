@@ -1,0 +1,47 @@
+.header{
+    background-color: var(--purple-color, #5e00aa);
+}
+
+.header__navigation{
+    max-width: 100%;
+    width: 100%;
+    padding: 20px;
+}
+
+.header__checkbox{
+    display: none;
+}
+
+.hamburger__lines{
+    display: none;
+}
+
+.header__list{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.header__list-link{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: 2px;
+    color: var(--white-color, #ffffff);
+    border: none;
+    transform: scale(1);
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+.header__list-link:hover{
+    color: var(--light-gray-color, #8a8a8a);
+    transition: color 0.5s;
+}
+
+.header__list-link:active{
+    color: var(--gray-color, #4e4e4e);
+    transition: color 0.5s;
+}

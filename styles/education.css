@@ -1,0 +1,28 @@
+.education{
+    padding: 20px;
+}
+
+.education__info{
+    max-width: 100%;
+    width: 100%;
+    padding: 20px 0;
+}
+
+.education__university{
+    display: flex;
+    justify-content: space-between;
+}
+
+.education__name{
+    padding: 10px 0;
+}
+
+.education__speciality{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 26px;
+    letter-spacing: 1px;
+}

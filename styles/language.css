@@ -1,0 +1,12 @@
+.language{
+    padding: 20px;
+    background: var(--purple-color, #5e00aa);
+    color: var(--white-color, #ffffff);
+}
+
+.language__name{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 26px;
+    letter-spacing: 1px;
+}

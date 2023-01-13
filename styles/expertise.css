@@ -1,0 +1,23 @@
+.expertise{
+    padding: 20px;
+}
+
+.expertise__item{
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 26px;
+    letter-spacing: 1px;
+}
+
+.expertise__info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.expertise__base{
+    padding-left: 20px;
+}
+
+.expertise__item{
+    padding-bottom: 10px;
+}

@@ -1,0 +1,34 @@
+.contact{
+    background-color: var(--purple-color, #5e00aa);
+}
+
+.contact__container{
+    padding: 20px;
+}
+
+.contact__title{
+    color: var(--white-color, #ffffff)
+}
+
+.section__info{
+    max-width: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.contact__info{
+    padding: 20px 0 15px 0;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: 2px;
+    color: var(--white-color, #ffffff);
+}
+
+.contact__email{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
