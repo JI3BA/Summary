@@ -24,12 +24,18 @@
 
 .gallery__btn{
     padding: 40px 10px;
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: transparent;
+    color: transparent;
     border: none;
     cursor: pointer;
     font-weight: 500;
     transform: scale(1);
     transition: all 0.3s;
+}
+
+.gallery__btn:hover{
+    background-color: rgba(0, 0, 0, 0.2);
+    color: #000000;
 }
 
 .gallery__btn:active{
