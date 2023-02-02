@@ -66,32 +66,22 @@
         width: 100%;
     }
 
+    .gallery{
+        max-width: 320px;
+        width: 100%;
+        max-height: 320px;
+        height: 100%;
+    }
+
     .gallery__list{
         width: 320px;
     }
 
-    .gallery__item{
-        max-width: 320px;
-        width: 100%;
-        max-height: 320px;
-        height: 100%;
-    }
-
     .gallery__image{
-        max-width: 320px;
-        width: 100%;
-        max-height: 320px;
-        height: 100%;
+        width: 320px;
+        height: 320px;
     }
 
-    .thumbnails{
-        max-height: 320px;
-        height: 100%;
-    }
-
-    .thumbnails__image{
-        width: 160px;
-    }
 
     .language__info{
         padding-top: 20px;
