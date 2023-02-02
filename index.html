@@ -5,9 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css" type="text/css">
-    <link rel="stylesheet" href="./styles/mediaQueries1200px.css" type="text/css">
-    <link rel="stylesheet" href="./styles/mediaQueries960px.css" type="text/css">
-    <link rel="stylesheet" href="./styles/mediaQueries550px.css" type="text/css">
+    <link rel="stylesheet" href="./styles/media-queries-1200px.css" type="text/css">
+    <link rel="stylesheet" href="./styles/media-queries-960px.css" type="text/css">
+    <link rel="stylesheet" href="./styles/media-queries-550px.css" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Summary</title>
 </head>
 <body>
@@ -210,67 +211,17 @@
                 <h1 class="section__title slider__title">Gallery meme</h1>
 
                 <div class="gallery">
-                    <ul class="gallery__list">
-                        <li id="slide-one" class="gallery__item">
-                            <img src="./img/meme/meme1.jpg" class="gallery__image" alt="meme1">
-                        </li>
-                        <li id="slide-two" class="gallery__item">
-                            <img src="./img/meme/meme2.jpg" class="gallery__image" alt="meme">
-                        </li>
-                        <li id="slide-three" class="gallery__item">
-                            <img src="./img/meme/meme3.jpg" class="gallery__image" alt="meme">
-                        </li>
-                        <li id="slide-four" class="gallery__item">
-                            <img src="./img/meme/meme4.jpg" class="gallery__image" alt="meme">
-                        </li>
-                        <li id="slide-five" class="gallery__item">
-                            <img src="./img/meme/meme5.jpg" class="gallery__image" alt="meme">
-                        </li>
-                        <li id="slide-six" class="gallery__item">
-                            <img src="./img/meme/meme6.jpg" class="gallery__image" alt="meme">
-                        </li>
-                        <li id="slide-seven" class="gallery__item">
-                            <img src="./img/meme/meme7.jpg" class="gallery__image" alt="meme7">
-                        </li>
-                    </ul>
-
-                    <ul class="thumbnails">
-                        <li class="thumbnails__item">
-                            <a href="#slide-one" class="thumbnails__link">
-                                <img src="./img/meme/meme1.jpg" class="thumbnails__image" alt="meme">
-                            </a>
-                        </li>
-                        <li class="thumbnails__item">
-                            <a href="#slide-two" class="thumbnails__link">
-                                <img src="./img/meme/meme2.jpg" class="thumbnails__image" alt="meme">
-                            </a>
-                        </li>
-                        <li class="thumbnails__item">
-                            <a href="#slide-three" class="thumbnails__link">
-                                <img src="./img/meme/meme3.jpg" class="thumbnails__image" alt="meme">
-                            </a>
-                        </li>
-                        <li class="thumbnails__item">
-                            <a href="#slide-four" class="thumbnails__link">
-                                <img src="./img/meme/meme4.jpg" class="thumbnails__image" alt="meme">
-                            </a>
-                        </li>
-                        <li class="thumbnails__item">
-                            <a href="#slide-five" class="thumbnails__link">
-                                <img src="./img/meme/meme5.jpg" class="thumbnails__image" alt="meme">
-                            </a>
-                        </li>
-                        <li class="thumbnails__item">
-                            <a href="#slide-six" class="thumbnails__link">
-                                <img src="./img/meme/meme6.jpg" class="thumbnails__image" alt="meme">
-                            </a>
-                        </li>
-                        <li class="thumbnails__item">
-                            <a href="#slide-seven" class="thumbnails__link">
-                                <img src="./img/meme/meme7.jpg" class="thumbnails__image" alt="meme">
-                            </a>
-                        </li>
-                    </ul>
+                    <div class="gallery__list">
+                        <img src="./img/meme/meme1.jpg" class="gallery__image" alt="meme1">
+                        <img src="./img/meme/meme2.jpg" class="gallery__image" alt="meme2">                       
+                        <img src="./img/meme/meme3.jpg" class="gallery__image" alt="meme3">                       
+                        <img src="./img/meme/meme4.jpg" class="gallery__image" alt="meme4">           
+                        <img src="./img/meme/meme5.jpg" class="gallery__image" alt="meme5">  
+                        <img src="./img/meme/meme6.jpg" class="gallery__image" alt="meme6"> 
+                        <img src="./img/meme/meme7.jpg" class="gallery__image" alt="meme7">
+                    </div>
+                    <button class="gallery__btn btn__next">></button>
+                    <button class="gallery__btn btn__prev"><</button>
                 </div>
             </div>
         </section>
@@ -337,6 +288,7 @@
             </div>
         </div>
     </footer>
+    <script src="./main.js" />
 </body>
 </html>
 
